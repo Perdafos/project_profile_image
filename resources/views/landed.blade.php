@@ -2,78 +2,124 @@
 @section('title', 'Landed')
 
 @section('content')
-<body class="flex onest">
-<nav style="display: flex; justify-content: space-between; align-items: center; padding: 20px; background-color: rgba(255, 255, 255, 0.8); box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);">
-    <div>
-        <img src="{{ asset('asset/image/CDA_Primary Logo 1.png') }}" alt="Cyber Defense Logo" style="width: 120px; height: auto;">
-    </div>
-    <div>
-        <a href="#home" style="margin: 0 15px; text-decoration: none; color: #333; font-weight: bold;">Beranda</a>
-        <a href="#about" style="margin: 0 15px; text-decoration: none; color: #333; font-weight: bold;">Tentang Kami</a>
-        <a href="#curriculum" style="margin: 0 15px; text-decoration: none; color: #333; font-weight: bold;">Kurikulum</a>
-        <a href="#timeline" style="margin: 0 15px; text-decoration: none; color: #333; font-weight: bold;">Timeline</a>
-        <a href="#certification" style="margin: 0 15px; text-decoration: none; color: #333; font-weight: bold;">Sertifikasi</a>
-    </div>
-</nav>
+
+    <body class="flex onest">
+        <div class="relative">
+            <div class="item-header z-0">
+                <img class="absolute right-0 top-0" src="{{ asset('asset/item/Ellipse 39.png') }}" alt="">
+                <img class="absolute left-0 top-0" src="{{ asset('asset/item/Ellipse 38.png') }}" alt="">
+                <img class="absolute left-0 top-0" src="{{ asset('asset/item/PRINT.png') }}" alt="">
+            </div>
+            <nav class="flex justify-between items-center p-5 bg-none px-16 relative z-10">
+                <div>
+                    <img src="{{ asset('asset/image/CDA_Primary Logo 1.png') }}" alt="Cyber Defense Logo"
+                        style="width: 120px; height: auto;">
+                </div>
+                <div>
+                    <a href="#home" class="mx-4 text-gray-800 font-bold hover:text-orange-500 cursor-pointer">Beranda</a>
+                    <a href="#about" class="mx-4 text-gray-800 font-bold hover:text-orange-500 cursor-pointer">Tentang
+                        Kami</a>
+                    <a href="#curriculum"
+                        class="mx-4 text-gray-800 font-bold hover:text-orange-500 cursor-pointer">Kurikulum</a>
+                    <a href="#timeline"
+                        class="mx-4 text-gray-800 font-bold hover:text-orange-500 cursor-pointer">Timeline</a>
+                    <a href="#certification"
+                        class="mx-4 text-gray-800 font-bold hover:text-orange-500 cursor-pointer">Sertifikasi</a>
+                </div>
+            </nav>
+        </div>
+
+        <section class="flex items-center justify-center px-32 py-10 h-screen w-full">
+            <div class="flex w-full flex-col">
+                <h1 class="text-6xl lg:text-7xl font-bold text-gray-800 mb-5">
+                    Take Your Part in Global Cyber <span class="text-orange-500">Defense</span> Elite
+                </h1>
+                <p class="text-2xl text-gray-600 mb-5">
+                    Dapatkan pengalaman belajar praktis, dan nikmati bimbingan langsung dari mentor expert Internasional.
+                </p>
+                <button class="px-6 py-3 bg-orange-500 text-white rounded-full text-lg hover:bg-orange-600 w-fit">
+                    Daftar Sekarang <i class="fa-solid fa-arrow-right"></i>
+                </button>
+            </div>
+            <div class="flex w-full text-center">
+                <img src="{{ asset('asset/image/PRINT.png') }}" alt="Cyber Defense"
+                    class="w-full max-w-md mx-auto rounded-lg">
+            </div>
+        </section>
+
+        <section class="bg-[#FB9A3C] flex flex-wrap justify-between gap-5 py-2 px-24">
+            <div class="w-36 h-36 flex justify-center items-center">
+                <img src="{{ asset('asset/image/Logo Kek.png') }}" alt="" class="w-full h-auto">
+            </div>
+            <div class="w-36 h-36 flex justify-center items-center">
+                <img src="{{ asset('asset/image/FINAL LOGO SEAL 2.png') }}" alt="" class="w-full h-auto">
+            </div>
+            <div class="w-36 h-36 flex justify-center items-center">
+                <img src="{{ asset('asset/image/WhatsApp Image 2025-03-30 at 12.54.21_aaa235b5 1.png') }}" alt=""
+                    class="w-full h-auto">
+            </div>
+            <div class="w-36 h-36 flex justify-center items-center">
+                <img src="{{ asset('asset/image/Group 1610.png') }}" alt="" class="w-full h-auto">
+            </div>
+            <div class="w-36 h-36 flex justify-center items-center">
+                <img src="{{ asset('asset/image/logo acquarii.png') }}" alt="" class="w-full h-auto">
+            </div>
+        </section>
+
+        <section class="w-full h-fit px-[200px] flex flex-col lg:flex-row justify-center items-center mt-16 mb-[300px]">
+            <div class="flex flex-col w-1/2 lg:w-1/2 text-center lg:text-left">
+            <h2 class="text-5xl lg:text-6xl font-bold text-gray-800 mb-6">
+            <span class="text-[#F97D16]">Developing</span> the Next Generation of Cyber Defenders
+            </h2>
+            <p class="text-gray-600 text-lg lg:text-xl leading-relaxed">
+                Penunjukan khusus Presiden Republik Indonesia untuk melaksanakan kolaborasi antara Indonesia dan India.
+                KEK Singhasari melalui SEAL (Social Economic Accelerator Lab) menciptakan kolaborasi di bidang
+                keamanan siber yang berfokus pada pertahanan, mempersiapkan talenta untuk menghadapi perkembangan
+                teknologi di dunia siber.
+            </p>
+            </div>
+            <div class="w-full lg:w-1/2 flex justify-center">
+            <img src="{{ asset('asset/image/image 112.png') }}" alt="Cyber Defense Collaboration"
+                class="w-full max-w-xl rounded-lg text-2xl lg:text-3xl">
+            </div>
+        </section>
 
 
-<section style="display: flex; align-items: center; justify-content: space-between; padding: 60px 20px; background-color: #f9f9f9; height: 100vh;">
-    <div style="flex: 1; padding-right: 20px;">
-        <h1 style="font-size: 2.5em; color: #333; margin-bottom: 20px;">
-            Take Your Part in Global <span style="color: #f77f00;">Cyber Defense</span> Elite
-        </h1>
-        <p style="font-size: 1.2em; color: #555; margin: 20px 0;">
-            Dapatkan pengalaman belajar praktis, dan nikmati bimbingan langsung dari mentor expert Internasional.
-        </p>
-        <button style="padding: 12px 24px; background-color: #f77f00; color: #fff; border: none; border-radius: 25px; font-size: 1em; cursor: pointer;">
-            Daftar Sekarang
-        </button>
-    </div>
-    <div style="flex: 1; text-align: center;">
-        <img src="{{ asset('asset/image/PRINT.png') }}" alt="Cyber Defense" style="max-width: 100%; border-radius: 12px;">
-    </div>
-</section>
+        <section class="flex flex-col justify-center items-center px-5 py-10 gap-5 my-16">
+            <p class="text-5xl">Belajar Dengan <span class="text-[#F97D16]">Mentor Ahli</span> Bertaraf Internasional</p>
+            <div class="flex justify-center items-center px-5 py-10 gap-5">
+                <div class="text-center w-fit h-fit rounded-2xl p-2 border">
+                    <div class="bg-gradient-to-t from-[#EC4242] to-[#FFD1B7] rounded-2xl">
+                        <img src="{{ asset('asset/image/Utool-20250325-140134617 1.png') }}" alt="John Doe"
+                            class="w-[192px] h-[192px] rounded-2xl mb-3">
+                    </div>
+                    <h3 class="text-lg font-semibold text-gray-800">Sawani C</h3>
+                    <p class="text-sm text-gray-600">Senior Security Expert</p>
+                </div>
+                <div class="text-center w-fit h-fit rounded-2xl p-2 border">
+                    <div class="bg-gradient-to-t from-[#EC4242] to-[#FFD1B7] rounded-2xl">
+                        <img src="{{ asset('asset/image/Utool-20250325-142449414[1] 2.png') }}" alt="Jane Smith"
+                            class="w-[192px] h-[192px] rounded-2xl mb-3">
+                    </div>
+                    <h3 class="text-lg font-semibold text-gray-800">Abhijit H</h3>
+                    <p class="text-sm text-gray-600">Cyber Security Expert</p>
+                </div>
+                <div class="text-center w-fit h-fit rounded-2xl p-2 border">
+                    <div class="bg-gradient-to-t from-[#EC4242] to-[#FFD1B7] rounded-2xl">
+                        <img src="{{ asset('asset/image/WhatsApp Image 2025-04-10 at 11.23.20_375df8e7 1.png') }}"
+                            alt="Michael Lee" class="w-[192px] h-[192px] rounded-2xl mb-3">
+                    </div>
+                    <h3 class="text-lg font-semibold text-gray-800">Samarjit A</h3>
+                    <p class="text-sm text-gray-600">Cyber Security Ethical</p>
+                </div>
+            </div>
+        </section>
 
-<section style="background-color: #f77f00; display: flex; flex-wrap: wrap; justify-content: center; gap: 20px; padding: 40px;">
-    <div style="width: 150px; height: 150px; display: flex; justify-content: center; align-items: center;">
-        <img src="{{ asset('asset/image/Logo Kek.png') }}" alt="" style="max-width: 100%; height: auto;">
-    </div>
-    <div style="width: 150px; height: 150px; display: flex; justify-content: center; align-items: center;">
-        <img src="{{ asset('asset/image/FINAL LOGO SEAL 2.png') }}" alt="" style="max-width: 100%; height: auto;">
-    </div>
-    <div style="width: 150px; height: 150px; display: flex; justify-content: center; align-items: center;">
-        <img src="{{ asset('asset/image/WhatsApp Image 2025-03-30 at 12.54.21_aaa235b5 1.png') }}" alt="" style="max-width: 100%; height: auto;">
-    </div>
-    <div style="width: 150px; height: 150px; display: flex; justify-content: center; align-items: center;">
-        <img src="{{ asset('asset/image/Group 1610.png') }}" alt="" style="max-width: 100%; height: auto;">
-    </div>
-    <div style="width: 150px; height: 150px; display: flex; justify-content: center; align-items: center;">
-        <img src="{{ asset('asset/image/FINAL LOGO SEAL 2.png') }}" alt="" style="max-width: 100%; height: auto;">
-    </div>
-</section>
-
-<section style="display: flex; justify-content: space-around; padding: 40px 20px; gap: 20px;">
-    <div style="text-align: center; width: 200px;">
-        <img src="{{ asset('asset/image/Utool-20250325-140134617 1.png') }}" alt="John Doe" style="max-width: 100%; border-radius: 12px; margin-bottom: 10px;">
-        <h3 style="font-size: 1.2em; color: #333;">John Doe</h3>
-        <p style="font-size: 0.9em; color: #555;">Senior Security Specialist</p>
-    </div>
-    <div style="text-align: center; width: 200px;">
-        <img src="{{ asset('asset/image/Utool-20250325-142449414[1] 2.png') }}" alt="Jane Smith" style="max-width: 100%; border-radius: 12px; margin-bottom: 10px;">
-        <h3 style="font-size: 1.2em; color: #333;">Jane Smith</h3>
-        <p style="font-size: 0.9em; color: #555;">Cyber Threat Analyst</p>
-    </div>
-    <div style="text-align: center; width: 200px;">
-        <img src="{{ asset('asset/image/WhatsApp Image 2025-04-10 at 11.23.20_375df8e7 1.png') }}" alt="Michael Lee" style="max-width: 100%; border-radius: 12px; margin-bottom: 10px;">
-        <h3 style="font-size: 1.2em; color: #333;">Michael Lee</h3>
-        <p style="font-size: 0.9em; color: #555;">Ethical Hacker</p>
-    </div>
-</section>
-    
         <section
-            class="flex flex-col lg:flex-row w-full gap-4 lg:gap-2 h-auto bg-gray-200 px-4 sm:px-6 2xl:px-[300px] py-6 my-20">
+            class="flex flex-col lg:flex-row w-full gap-4 lg:gap-2 h-auto bg-gray-100 px-4 sm:px-6 2xl:px-[300px] py-6 my-20">
             <div class="flex flex-col w-full lg:w-[600px] gap-4">
-                <p class="text-[24px] sm:text-[32px] lg:text-[64px] font-semibold">Raih <span class="text-[#F97D16]">Beasiswa</span> Hingga
+                <p class="text-[24px] sm:text-[32px] lg:text-[64px] font-semibold">Raih <span
+                        class="text-[#F97D16]">Beasiswa</span> Hingga
                     300Jt</p>
                 <button
                     class="bg-orange-500 hover:bg-orange-600 text-white font-medium py-2 px-4 sm:px-5 rounded-full w-fit inline-flex items-center gap-3">
@@ -81,24 +127,24 @@
                     <i class="fa-solid fa-arrow-right"></i>
                 </button>
             </div>
-            <div class="grid grid-cols-2 lg:grid-cols-2 grid-rows-2 lg:grid-rows-2 w-full lg:w-[600px] gap-4">
-                <div class="flex flex-col bg-white text-center justify-center items-center rounded-lg w-full h-full">
-                    <p class="text-[24px] sm:text-[32px] lg:text-[64px]">25%</p>
+            <div class="grid grid-cols-2 lg:grid-cols-2 grid-rows-2 lg:grid-rows-2 w-full lg:w-[600px] gap-10">
+                <div class="flex flex-col bg-white text-center justify-center items-center rounded-lg w-full h-full py-5">
+                    <p class="text-[24px] sm:text-[32px] lg:text-[64px] text-[#F97D16] font-semibold">25%</p>
                     <p class="text-xs sm:text-sm lg:text-lg">Dari Total Program</p>
                 </div>
 
                 <div class="flex flex-col bg-white text-center justify-center items-center rounded-lg w-full h-full">
-                    <p class="text-[24px] sm:text-[32px] lg:text-[64px]">40%</p>
+                    <p class="text-[24px] sm:text-[32px] lg:text-[64px] text-[#F97D16] font-semibold">40%</p>
                     <p class="text-xs sm:text-sm lg:text-lg">Dari Total Program</p>
                 </div>
 
                 <div class="flex flex-col bg-white text-center justify-center items-center rounded-lg w-full h-full">
-                    <p class="text-[24px] sm:text-[32px] lg:text-[64px]">80%</p>
+                    <p class="text-[24px] sm:text-[32px] lg:text-[64px] text-[#F97D16] font-semibold">80%</p>
                     <p class="text-xs sm:text-sm lg:text-lg">Dari Total Program</p>
                 </div>
 
                 <div class="flex flex-col bg-white text-center justify-center items-center rounded-lg w-full h-full">
-                    <p class="text-[24px] sm:text-[32px] lg:text-[64px]">100%</p>
+                    <p class="text-[24px] sm:text-[32px] lg:text-[64px] text-[#F97D16] font-semibold">100%</p>
                     <p class="text-xs sm:text-sm lg:text-lg">Dari Total Program</p>
                 </div>
             </div>
@@ -108,12 +154,75 @@
                         grid-template-columns: 1fr !important;
                         grid-template-rows: auto !important;
                     }
+
+                    .flex {
+                        flex-direction: column !important;
+                    }
+
+                    .text-[24px] {
+                        font-size: 18px !important;
+                    }
+
+                    .text-[32px] {
+                        font-size: 24px !important;
+                    }
+
+                    .text-[64px] {
+                        font-size: 36px !important;
+                    }
+
+                    .px-[200px] {
+                        padding-left: 16px !important;
+                        padding-right: 16px !important;
+                    }
+
+                    .lg\:w-[600px] {
+                        width: 100% !important;
+                    }
+
+                    .lg\:px-[64px] {
+                        padding-left: 16px !important;
+                        padding-right: 16px !important;
+                    }
+
+                    .lg\:gap-2 {
+                        gap: 8px !important;
+                    }
+
+                    .lg\:text-[64px] {
+                        font-size: 36px !important;
+                    }
+
+                    .lg\:text-xl {
+                        font-size: 18px !important;
+                    }
+
+                    .lg\:text-5xl {
+                        font-size: 28px !important;
+                    }
+
+                    .lg\:text-6xl {
+                        font-size: 32px !important;
+                    }
+
+                    .lg\:text-7xl {
+                        font-size: 36px !important;
+                    }
+
+                    .lg\:w-1\/2 {
+                        width: 100% !important;
+                    }
+
+                    .lg\:max-w-[800px] {
+                        max-width: 100% !important;
+                    }
                 }
             </style>
         </section>
-        <section class="flex flex-col lg:flex-row w-full px-4 sm:px-6 lg:px-[64px] gap-6 my-20">
+        <section class="flex flex-col lg:flex-row w-full px-4 sm:px-6 lg:px-[64px] gap-6 mt-20 mb-[300px]">
             <div class="flex flex-col w-full lg:w-[60%] gap-4">
-                <p class="text-[24px] sm:text-[32px] lg:text-[64px] w-full lg:w-[600px] font-semibold">Apa Saja Yang Akan Kamu Pelajari
+                <p class="text-[24px] sm:text-[32px] lg:text-[64px] w-full lg:w-[600px] font-semibold">Apa Saja Yang Akan
+                    Kamu Pelajari
                 </p>
                 <p class="text-xs sm:text-sm lg:text-base">Materi terdiri dari 4 Stack yang akan dilaksanakan selama 45
                     hari,
@@ -150,18 +259,40 @@
                         </div>
                         <div class="tab-content hidden" id="tab-2">
                             <h2 class="text-base sm:text-lg lg:text-xl font-semibold mb-2">Lorem, ipsum.</h2>
-                            <p class="text-gray-600 text-xs sm:text-sm lg:text-base">Lorem, ipsum dolor sit amet consectetur adipisicing elit. In ut accusantium veritatis possimus itaque blanditiis quam amet. Libero aliquid unde vel voluptate tempora dolorem hic. Esse repudiandae eius provident, quas et iusto ratione doloremque adipisci repellendus mollitia veritatis earum necessitatibus possimus numquam? Sapiente, error qui. Saepe temporibus, aliquam repellendus maxime quaerat quis quas, ratione error eos tempore ex doloribus. Pariatur numquam, doloribus ipsum at excepturi blanditiis voluptates vero odit eos explicabo quas labore aliquam ratione harum quia, incidunt porro earum tempora? Odio eligendi vero iste in excepturi eos fugit, dolorum animi labore facere dicta eum totam fugiat non nisi voluptate?</p>
+                            <p class="text-gray-600 text-xs sm:text-sm lg:text-base">Lorem, ipsum dolor sit amet
+                                consectetur adipisicing elit. In ut accusantium veritatis possimus itaque blanditiis quam
+                                amet. Libero aliquid unde vel voluptate tempora dolorem hic. Esse repudiandae eius
+                                provident, quas et iusto ratione doloremque adipisci repellendus mollitia veritatis earum
+                                necessitatibus possimus numquam? Sapiente, error qui. Saepe temporibus, aliquam repellendus
+                                maxime quaerat quis quas, ratione error eos tempore ex doloribus. Pariatur numquam,
+                                doloribus ipsum at excepturi blanditiis voluptates vero odit eos explicabo quas labore
+                                aliquam ratione harum quia, incidunt porro earum tempora? Odio eligendi vero iste in
+                                excepturi eos fugit, dolorum animi labore facere dicta eum totam fugiat non nisi voluptate?
+                            </p>
                         </div>
                         <div class="tab-content hidden" id="tab-3">
                             <h2 class="text-base sm:text-lg lg:text-xl font-semibold mb-2">Lorem, ipsum dolor.</h2>
-                            <p class="text-gray-600 text-xs sm:text-sm lg:text-base">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis est ex asperiores delectus enim alias nostrum quo. Odit, voluptatum nulla. Velit, quisquam! Quia rem numquam ea atque esse, dignissimos aspernatur ut nulla aperiam magnam aliquid repellendus deleniti, dolorem vel nemo distinctio debitis perspiciatis modi quae ducimus sunt minus impedit! Delectus!
+                            <p class="text-gray-600 text-xs sm:text-sm lg:text-base">Lorem ipsum dolor sit amet consectetur
+                                adipisicing elit. Debitis est ex asperiores delectus enim alias nostrum quo. Odit,
+                                voluptatum nulla. Velit, quisquam! Quia rem numquam ea atque esse, dignissimos aspernatur ut
+                                nulla aperiam magnam aliquid repellendus deleniti, dolorem vel nemo distinctio debitis
+                                perspiciatis modi quae ducimus sunt minus impedit! Delectus!
 
                             </p>
                         </div>
                         <div class="tab-content hidden" id="tab-4">
                             <h2 class="text-base sm:text-lg lg:text-xl font-semibold mb-2">Lorem.
                             </h2>
-                            <p class="text-gray-600 text-xs sm:text-sm lg:text-base">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae natus quo iure iste, eius aliquid corporis sint beatae repudiandae ipsam tempore itaque amet nostrum inventore, laboriosam voluptatem eligendi sunt sed odio rem culpa assumenda temporibus? Doloribus a aut eos rerum placeat, quae, quisquam libero aliquam delectus voluptates pariatur maxime rem deleniti voluptate ut ipsam vitae quasi accusantium. Quis nihil eos alias? Nisi labore dolorum excepturi aperiam obcaecati, laborum a! Expedita quasi soluta sequi, rerum repellendus nesciunt, mollitia ipsa consectetur cupiditate dolores corporis, vel similique reiciendis repellat tempora. Sed obcaecati est, maiores voluptas tenetur eos et nihil, atque aspernatur adipisci consectetur.</p>
+                            <p class="text-gray-600 text-xs sm:text-sm lg:text-base">Lorem ipsum dolor, sit amet
+                                consectetur adipisicing elit. Recusandae natus quo iure iste, eius aliquid corporis sint
+                                beatae repudiandae ipsam tempore itaque amet nostrum inventore, laboriosam voluptatem
+                                eligendi sunt sed odio rem culpa assumenda temporibus? Doloribus a aut eos rerum placeat,
+                                quae, quisquam libero aliquam delectus voluptates pariatur maxime rem deleniti voluptate ut
+                                ipsam vitae quasi accusantium. Quis nihil eos alias? Nisi labore dolorum excepturi aperiam
+                                obcaecati, laborum a! Expedita quasi soluta sequi, rerum repellendus nesciunt, mollitia ipsa
+                                consectetur cupiditate dolores corporis, vel similique reiciendis repellat tempora. Sed
+                                obcaecati est, maiores voluptas tenetur eos et nihil, atque aspernatur adipisci consectetur.
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -274,61 +405,64 @@
         </section>
         <section class="max-w-full px-4 sm:px-8 lg:px-16 flex flex-col lg:flex-row justify-center">
             <div class="flex flex-col mb-8 lg:mb-0">
-            <h1 class="text-2xl sm:text-4xl lg:text-5xl font-semibold text-gray-900 mb-4">
-                Perjalanan Belajar yang <br /> Bikin Kamu Naik Level
-            </h1>
-            <p class="text-gray-500">
-                Berikut timeline pada pilot program pertama yang dimulai bulan <br class="hidden sm:block" />April 2025.
-            </p>
+                <h1 class="text-2xl sm:text-4xl lg:text-5xl font-semibold text-gray-900 mb-4">
+                    Perjalanan Belajar yang <br /> Bikin Kamu Naik Level
+                </h1>
+                <p class="text-gray-500">
+                    Berikut timeline pada pilot program pertama yang dimulai bulan <br class="hidden sm:block" />April
+                    2025.
+                </p>
             </div>
 
             <div class="relative border-l border-gray-300 pl-6 ml-3 space-y-8">
-            <ul class="space-y-4">
-                <li>
-                <p class="font-semibold bg-gray-200 rounded-full p-2 w-fit">Senin, 14 April 2025</p>
-                <p class="font-semibold mt-2">Webinar</p>
-                <p class="text-gray-500">Sounding informasi tutup pendaftaran beasiswa 21 April 23:59 WIB</p>
-                </li>
-                <li>
-                <p class="font-semibold bg-gray-200 rounded-full p-2 w-fit">Senin, 21 April 2025</p>
-                <p class="font-semibold mt-2">Last Call of Participant</p>
-                <p class="text-gray-500">(will be officially closed on 23:59 WIB)</p>
-                </li>
-                <li>
-                <p class="font-semibold bg-gray-200 rounded-full p-2 w-fit">Selasa–Rabu, 22–23 April 2025</p>
-                <p class="font-semibold mt-2">Seleksi & Pengiriman Surat Offering</p>
-                <p class="text-gray-500">maksimal konfirmasi & pembayaran 24 April</p>
-                </li>
-                <li>
-                <p class="font-semibold bg-gray-200 rounded-full p-2 w-fit">Kamis, 24 April 2025</p>
-                <p class="font-semibold mt-2">Follow Up Konfirmasi Pembayaran</p>
-                </li>
-                <li>
-                <p class="font-semibold bg-gray-200 rounded-full p-2 w-fit">Jumat, 25 April 2025</p>
-                <p class="font-semibold mt-2">Welcoming & Onboarding</p>
-                </li>
-                <li>
-                <p class="font-semibold bg-gray-200 rounded-full p-2 w-fit">Senin, 28 April 2025</p>
-                <p class="font-semibold mt-2">Class Started</p>
-                </li>
-            </ul>
+                <ul class="space-y-4">
+                    <li>
+                        <p class="font-semibold bg-gray-200 rounded-full p-2 w-fit">Senin, 14 April 2025</p>
+                        <p class="font-semibold mt-2">Webinar</p>
+                        <p class="text-gray-500">Sounding informasi tutup pendaftaran beasiswa 21 April 23:59 WIB</p>
+                    </li>
+                    <li>
+                        <p class="font-semibold bg-gray-200 rounded-full p-2 w-fit">Senin, 21 April 2025</p>
+                        <p class="font-semibold mt-2">Last Call of Participant</p>
+                        <p class="text-gray-500">(will be officially closed on 23:59 WIB)</p>
+                    </li>
+                    <li>
+                        <p class="font-semibold bg-gray-200 rounded-full p-2 w-fit">Selasa–Rabu, 22–23 April 2025</p>
+                        <p class="font-semibold mt-2">Seleksi & Pengiriman Surat Offering</p>
+                        <p class="text-gray-500">maksimal konfirmasi & pembayaran 24 April</p>
+                    </li>
+                    <li>
+                        <p class="font-semibold bg-gray-200 rounded-full p-2 w-fit">Kamis, 24 April 2025</p>
+                        <p class="font-semibold mt-2">Follow Up Konfirmasi Pembayaran</p>
+                    </li>
+                    <li>
+                        <p class="font-semibold bg-gray-200 rounded-full p-2 w-fit">Jumat, 25 April 2025</p>
+                        <p class="font-semibold mt-2">Welcoming & Onboarding</p>
+                    </li>
+                    <li>
+                        <p class="font-semibold bg-gray-200 rounded-full p-2 w-fit">Senin, 28 April 2025</p>
+                        <p class="font-semibold mt-2">Class Started</p>
+                    </li>
+                </ul>
             </div>
         </section>
 
         <section class="mt-10 my-20">
-            <h2 class="text-2xl md:text-5xl font-semibold text-center"><span class="text-orange-600">Sertifikasi</span> yang Akan Kamu
-            Peroleh</h2>
+            <h2 class="text-2xl md:text-5xl font-semibold text-center"><span class="text-orange-600">Sertifikasi</span>
+                yang Akan Kamu
+                Peroleh</h2>
             <br>
             <br>
             <div class="flex flex-col md:flex-row w-full justify-center gap-4">
-            <div class="w-full md:w-fit text-center">
-                <p class="font-semibold">Certified in Cyber Security ISC2 (CC) <br>Okta Certified Professional
-                <br>Microsoft IAM Admin (SC-300) <br>Course Completion Certificate
-                </p>
-            </div>
-            <div class="w-full md:w-fit flex justify-center">
-                <img src="{{ asset('asset/image/image 114.png') }}" alt="" class="w-auto max-w-full md:w-fit">
-            </div>
+                <div class="w-full md:w-fit text-center">
+                    <p class="font-semibold">Certified in Cyber Security ISC2 (CC) <br>Okta Certified Professional
+                        <br>Microsoft IAM Admin (SC-300) <br>Course Completion Certificate
+                    </p>
+                </div>
+                <div class="w-full md:w-fit flex justify-center">
+                    <img src="{{ asset('asset/image/image 114.png') }}" alt=""
+                        class="w-auto max-w-full md:w-fit">
+                </div>
             </div>
         </section>
         <footer class="bg-white text-center text-gray-500 py-4 border-t border-gray-300">

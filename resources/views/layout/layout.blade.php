@@ -9,14 +9,14 @@
 </head>
 
 <body>
-    <div id="navbar">
+    {{-- <div id="navbar">
         @include('layout.navbar')
-    </div>
+    </div> --}}
 
     <section class="content">
         @yield('content')
     </section>
-
-    @include('layout.footer')
+{{-- 
+    @include('layout.footer') --}}
 @yield('js')
 </html>

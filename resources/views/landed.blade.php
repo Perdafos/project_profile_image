@@ -143,7 +143,6 @@
                     <p class="text-orange-600 font-medium text-sm sm:text-base lg:text-lg">
                         Batch 01 LiveClass 45x, Pendaftaran akan dibuka:
                     </p>
-
                     <div class="flex flex-wrap gap-2 sm:gap-4 lg:gap-6 text-center mt-4" id="countdown-timer">
                         <div class="border border-orange-400 rounded-xl px-3 sm:px-4 lg:px-6 py-2 sm:py-3 lg:py-4">
                             <p class="text-xl sm:text-2xl lg:text-4xl font-bold" id="days">03</p>

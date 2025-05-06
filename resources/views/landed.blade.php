@@ -8,7 +8,7 @@
 
     <body class="flex onest">
         <section
-            class="flex flex-col lg:flex-row w-full gap-4 lg:gap-2 h-auto bg-gray-200 px-4 sm:px-6 2xl:px-[300px] py-6 my-10">
+            class="flex flex-col lg:flex-row w-full gap-4 lg:gap-2 h-auto bg-gray-200 px-4 sm:px-6 2xl:px-[300px] py-6 my-20">
             <div class="flex flex-col w-full lg:w-[600px] gap-4">
                 <p class="text-[24px] sm:text-[32px] lg:text-[64px] font-semibold">Raih <span class="text-[#F97D16]">Beasiswa</span> Hingga
                     300Jt</p>
@@ -48,7 +48,7 @@
                 }
             </style>
         </section>
-        <section class="flex flex-col lg:flex-row w-full px-4 sm:px-6 lg:px-[64px] gap-6 my-16">
+        <section class="flex flex-col lg:flex-row w-full px-4 sm:px-6 lg:px-[64px] gap-6 my-20">
             <div class="flex flex-col w-full lg:w-[60%] gap-4">
                 <p class="text-[24px] sm:text-[32px] lg:text-[64px] w-full lg:w-[600px] font-semibold">Apa Saja Yang Akan Kamu Pelajari
                 </p>
@@ -128,7 +128,7 @@
             </script>
         </section>
 
-        <section class="w-full mx-auto px-4 sm:px-6 lg:px-20 xl:px-40 py-8 sm:py-12 my-10">
+        <section class="w-full mx-auto px-4 sm:px-6 lg:px-20 xl:px-40 py-8 sm:py-12 my-32">
             <div class="flex flex-col md:flex-row w-full justify-center gap-6 sm:gap-10 lg:gap-20">
                 <div class="w-full md:w-auto">
                     <img src="{{ asset('asset/image/Poster Webinar A31 1.png') }}" alt="Poster"
@@ -253,7 +253,7 @@
             </div>
         </section>
 
-        <section class="mt-10 my-16">
+        <section class="mt-10 my-20">
             <h2 class="text-2xl md:text-5xl font-semibold text-center"><span class="text-orange-600">Sertifikasi</span> yang Akan Kamu
             Peroleh</h2>
             <br>

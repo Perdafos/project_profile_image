@@ -29,7 +29,7 @@
             </nav>
         </div>
 
-        <section class="flex items-center justify-center px-32 py-10 h-screen w-full">
+        <section class="flex items-center justify-center px-32 py-10 h-screen w-full" id="home">
             <div class="flex w-full flex-col">
                 <h1 class="text-6xl lg:text-7xl font-bold text-gray-800 mb-5">
                     Take Your Part in Global Cyber <span class="text-orange-500">Defense</span> Elite
@@ -66,7 +66,7 @@
             </div>
         </section>
 
-        <section class="w-full h-fit px-[200px] flex flex-col lg:flex-row justify-center items-center mt-16 mb-[300px]">
+        <section class="w-full h-fit px-[200px] flex flex-col lg:flex-row justify-center items-center mt-16 mb-[300px]" id="about">
             <div class="flex flex-col w-1/2 lg:w-1/2 text-center lg:text-left">
             <h2 class="text-5xl lg:text-6xl font-bold text-gray-800 mb-6">
             <span class="text-[#F97D16]">Developing</span> the Next Generation of Cyber Defenders
@@ -85,7 +85,7 @@
         </section>
 
 
-        <section class="flex flex-col justify-center items-center px-5 py-10 gap-5 my-16">
+        <section class="flex flex-col justify-center items-center px-5 py-10 gap-5 my-16" id="mentor">
             <p class="text-5xl">Belajar Dengan <span class="text-[#F97D16]">Mentor Ahli</span> Bertaraf Internasional</p>
             <div class="flex justify-center items-center px-5 py-10 gap-5">
                 <div class="text-center w-fit h-fit rounded-2xl p-2 border">
@@ -219,7 +219,7 @@
                 }
             </style>
         </section>
-        <section class="flex flex-col lg:flex-row w-full px-4 sm:px-6 lg:px-[64px] gap-6 mt-20 mb-[300px]">
+        <section class="flex flex-col lg:flex-row w-full px-4 sm:px-6 lg:px-[64px] gap-6 mt-20 mb-[300px]" id="curriculum">
             <div class="flex flex-col w-full lg:w-[60%] gap-4">
                 <p class="text-[24px] sm:text-[32px] lg:text-[64px] w-full lg:w-[600px] font-semibold">Apa Saja Yang Akan
                     Kamu Pelajari
@@ -322,7 +322,7 @@
             </script>
         </section>
 
-        <section class="w-full mx-auto px-4 sm:px-6 lg:px-20 xl:px-40 py-8 sm:py-12 my-32">
+        <section class="w-full mx-auto px-4 sm:px-6 lg:px-20 xl:px-40 py-8 sm:py-12 my-32" id="timeline">
             <div class="flex flex-col md:flex-row w-full justify-center gap-6 sm:gap-10 lg:gap-20">
                 <div class="w-full md:w-auto">
                     <img src="{{ asset('asset/image/Poster Webinar A31 1.png') }}" alt="Poster"
@@ -403,7 +403,7 @@
                 </div>
             </div>
         </section>
-        <section class="max-w-full px-4 sm:px-8 lg:px-16 flex flex-col lg:flex-row justify-center">
+        <section class="max-w-full px-4 sm:px-8 lg:px-16 flex flex-col lg:flex-row justify-center" id="certification">
             <div class="flex flex-col mb-8 lg:mb-0">
                 <h1 class="text-2xl sm:text-4xl lg:text-5xl font-semibold text-gray-900 mb-4">
                     Perjalanan Belajar yang <br /> Bikin Kamu Naik Level

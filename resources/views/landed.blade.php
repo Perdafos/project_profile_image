@@ -27,7 +27,7 @@
                     <button id="menu-toggle"><i class="fa-solid fa-bars"></i></button>
                 </div>
             </nav>
-            <div id="mobile-menu" class="hidden fixed top-0 pt-16 left-0 w-full bg-white shadow-md z-40">
+            <div id="mobile-menu" class="hidden fixed top-0 pt-20 left-0 w-full bg-white shadow-md z-40">
                 <a href="#home" class="block px-4 py-2 text-gray-800 font-bold hover:bg-orange-100">Beranda</a>
                 <a href="#about" class="block px-4 py-2 text-gray-800 font-bold hover:bg-orange-100">Tentang Kami</a>
                 <a href="#curriculum" class="block px-4 py-2 text-gray-800 font-bold hover:bg-orange-100">Kurikulum</a>

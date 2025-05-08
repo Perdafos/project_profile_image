@@ -218,40 +218,34 @@
                             </p>
                         </div>
                         <div class="tab-content hidden" id="tab-2">
-                            <h2 class="text-base sm:text-lg lg:text-xl font-semibold mb-2">Lorem, ipsum.</h2>
-                            <p class="text-gray-600 text-xs sm:text-sm lg:text-base">Lorem, ipsum dolor sit amet
-                                consectetur adipisicing elit. In ut accusantium veritatis possimus itaque blanditiis quam
-                                amet. Libero aliquid unde vel voluptate tempora dolorem hic. Esse repudiandae eius
-                                provident, quas et iusto ratione doloremque adipisci repellendus mollitia veritatis earum
-                                necessitatibus possimus numquam? Sapiente, error qui. Saepe temporibus, aliquam repellendus
-                                maxime quaerat quis quas, ratione error eos tempore ex doloribus. Pariatur numquam,
-                                doloribus ipsum at excepturi blanditiis voluptates vero odit eos explicabo quas labore
-                                aliquam ratione harum quia, incidunt porro earum tempora? Odio eligendi vero iste in
-                                excepturi eos fugit, dolorum animi labore facere dicta eum totam fugiat non nisi voluptate?
+                            <h2 class="text-base sm:text-lg lg:text-xl font-semibold mb-2">Baseline Technology Skills</h2>
+                            <p class="text-gray-600 text-xs sm:text-sm lg:text-base">This stackable module consists of focused technology skills necessary 
+                                to build a career in cybersecurity. With a solid understanding of the IT infrastructure, systems 
+                                and resources deployed in organizations, the participants can better understand the risks 
+                                these businesses face and adopt the means to protect them. This module also focuses on 
+                                analyzing IT-related processes for efficiency and security.?
                             </p>
                         </div>
                         <div class="tab-content hidden" id="tab-3">
-                            <h2 class="text-base sm:text-lg lg:text-xl font-semibold mb-2">Lorem, ipsum dolor.</h2>
-                            <p class="text-gray-600 text-xs sm:text-sm lg:text-base">Lorem ipsum dolor sit amet consectetur
-                                adipisicing elit. Debitis est ex asperiores delectus enim alias nostrum quo. Odit,
-                                voluptatum nulla. Velit, quisquam! Quia rem numquam ea atque esse, dignissimos aspernatur ut
-                                nulla aperiam magnam aliquid repellendus deleniti, dolorem vel nemo distinctio debitis
-                                perspiciatis modi quae ducimus sunt minus impedit! Delectus!
+                            <h2 class="text-base sm:text-lg lg:text-xl font-semibold mb-2"> Niche Cybersecurity Skills (IAM/Identity Security)</h2>
+                            <p class="text-gray-600 text-xs sm:text-sm lg:text-base">Learning Summary: This stackable module focuses on the specialized skills needed by an 
+                                Identity & Access Management (IAM) practitioner. This module includes core concepts, 
+                                business drivers, use cases, demonstrations and process analysis of the three segments 
+                                within IAM – Identity Governance & Administration (IGA), Single Sign On (SSO) and 
+                                Privileged Access Management (PAM). Next, the participants engage in hands-on lab 
+                                exercises to implement industry-standard use cases from scratch using Okta, a market-leader 
+                                in the secure web/mobile application access management space.
 
                             </p>
                         </div>
                         <div class="tab-content hidden" id="tab-4">
-                            <h2 class="text-base sm:text-lg lg:text-xl font-semibold mb-2">Lorem.
+                            <h2 class="text-base sm:text-lg lg:text-xl font-semibold mb-2">Professional Skills 
                             </h2>
-                            <p class="text-gray-600 text-xs sm:text-sm lg:text-base">Lorem ipsum dolor, sit amet
-                                consectetur adipisicing elit. Recusandae natus quo iure iste, eius aliquid corporis sint
-                                beatae repudiandae ipsam tempore itaque amet nostrum inventore, laboriosam voluptatem
-                                eligendi sunt sed odio rem culpa assumenda temporibus? Doloribus a aut eos rerum placeat,
-                                quae, quisquam libero aliquam delectus voluptates pariatur maxime rem deleniti voluptate ut
-                                ipsam vitae quasi accusantium. Quis nihil eos alias? Nisi labore dolorum excepturi aperiam
-                                obcaecati, laborum a! Expedita quasi soluta sequi, rerum repellendus nesciunt, mollitia ipsa
-                                consectetur cupiditate dolores corporis, vel similique reiciendis repellat tempora. Sed
-                                obcaecati est, maiores voluptas tenetur eos et nihil, atque aspernatur adipisci consectetur.
+                            <p class="text-gray-600 text-xs sm:text-sm lg:text-base">Learning Summary: This stackable module facilitates the transition of entry-level and early
+                                stage talent into a professional career. With a holistic view towards the gamut of skills needed 
+                                to excel in a professional career, especially if one is part of a global workforce, this module 
+                                enables the participants to become aware of workplace expectations and adopt the skills and 
+                                considerations needed to excel in their careers. 
                             </p>
                         </div>
                     </div>

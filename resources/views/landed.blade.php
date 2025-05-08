@@ -17,7 +17,6 @@
                 </div>
                 <div class="hidden md:flex space-x-4 gap-4">
                     <a href="#home" class="text-gray-800 font-bold hover:text-orange-500">Beranda</a>
-                    <a href="#home" class="text-gray-800 font-bold hover:text-orange-500">Beranda</a>
                     <a href="#about" class="text-gray-800 font-bold hover:text-orange-500">Tentang Kami</a>
                     <a href="#curriculum" class="text-gray-800 font-bold hover:text-orange-500">Kurikulum</a>
                     <a href="#timeline" class="text-gray-800 font-bold hover:text-orange-500">Timeline</a>
